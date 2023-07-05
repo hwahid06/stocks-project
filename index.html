@@ -17,7 +17,7 @@
         <a class="navbar-brand" href="#">
             <img src="assets/stocklogo.jpeg" alt="Stock Logo" class="logo">
         </a>
-    
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,17 +33,27 @@
                 </li>
             </ul>
         </div>
+        <div id="searchContainer">
+            <input type="text" id="stockInput" placeholder="Enter stock symbol">
+            <button id="searchButton" class="btn btn-primary">Search</button>
+        </div>
     </nav>
-
-
+    
     <div class="container">
         <div id="stocksContainer"></div>
     </div>
+
     <div class="container">
         <div id="newsContainer"></div>
         <div id="portfolioContent" style="display: none;"></div>
     </div>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <footer>
+        <p>This website is for informational purposes only. Consult with a financial advisor before making any investment decisions.</p>
+        <p>&copy; 2023 Stock App. All rights reserved.</p>
+    </footer>
+
 </body>
 
 </html>

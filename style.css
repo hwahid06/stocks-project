@@ -22,14 +22,6 @@ body {
     justify-content: center;
 }
 
-.text-success {
-    color: green;
-}
-
-.text-danger {
-    color: red;
-}
-
 .logo {
     width: 150px;
     height: 180px;
@@ -59,10 +51,15 @@ body {
 
 .card {
     margin-bottom: 15px;
-    opacity: .8;
+    opacity: .88;
     }
 
 .card.stock-down {
+    padding: 20px;
+    margin-right: 20px;
+}
+
+.card.stock-up {
     padding: 20px;
     margin-right: 20px;
 }
@@ -93,9 +90,4 @@ body {
     margin-left: 15px;
     display: flex;
     justify-content: center;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: blue;
 }
